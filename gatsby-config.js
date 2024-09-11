@@ -3,8 +3,11 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `New Site Template`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: ``,
+    description: ``,
+    twitterUsername: ``,
+    image: `/logo.png`,
+    siteUrl: ``,
   },
   plugins: ["gatsby-plugin-postcss", "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',
