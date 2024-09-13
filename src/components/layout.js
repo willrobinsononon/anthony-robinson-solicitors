@@ -4,15 +4,15 @@ import Header from "./header"
 const Layout = ({ children }) => {
 
   return (
-    <>
+    <div className="">
       <Header/>
       <div>
         <main>{children}</main>
-        <footer className="mt-3 text-xs text-center">
-          © {new Date().getFullYear()} &middot; company-name
+        <footer className="relative mt-3 text-xs text-center z-20">
+          © {new Date().getFullYear()} &middot; Anthony Robinson Solicitors
         </footer>
       </div>
-    </>
+    </div>
   )
 }
 

@@ -9,65 +9,107 @@ export default function Header() {
   const navItems = [
     {
       id: 0,
-      navItemType: "NavItem",
-      href: "/",
-      text: "link 1",
-      description: "link description",
-    },
-    {
-      id: 1,
       navItemType: "NavItemGroup",
-      name: "group 1",
+      name: "About Us",
       navItems: [
         {
           id: 0,
           navItemType: "NavItem",
           href: "/",
-          text: "link 1",
+          text: "Why We are Different",
         },
         {
           id: 1,
           navItemType: "NavItem",
           href: "/",
-          text: "link 2",
+          text: "Anthony Robinson",
         },
         {
           id: 2,
           navItemType: "NavItem",
           href: "/",
-          text: "link 3",
+          text: "Testemonials",
+        },
+        {
+          id: 3,
+          navItemType: "NavItem",
+          href: "/",
+          text: "Complaints Procedure",
+        },
+      ]
+    },
+    {
+      id: 1,
+      navItemType: "NavItemGroup",
+      name: "Employers",
+      navItems: [
+        {
+          id: 0,
+          navItemType: "NavItem",
+          href: "/",
+          text: "Who We Work With",
+        },
+        {
+          id: 1,
+          navItemType: "NavItem",
+          href: "/",
+          text: "Key Issues",
+        },
+        {
+          id: 2,
+          navItemType: "NavItem",
+          href: "/",
+          text: "Services",
+        },
+        {
+          id: 3,
+          navItemType: "NavItem",
+          href: "/",
+          text: "Defense Costs for Dismissal Claims",
         },
       ]
     },
     {
       id: 2,
-      navItemType: "NavItem",
-      href: "/",
-      text: "link 2",
-      description: "link description",
-    },
-    {
-      id: 3,
       navItemType: "NavItemGroup",
-      name: "group 2",
+      name: "Employees",
       navItems: [
         {
           id: 0,
           navItemType: "NavItem",
           href: "/",
-          text: "link 1",
+          text: "Services",
         },
         {
           id: 1,
           navItemType: "NavItem",
           href: "/",
-          text: "link 2",
+          text: "Key Issues",
         },
         {
           id: 2,
           navItemType: "NavItem",
           href: "/",
-          text: "link 3",
+          text: "Costs for Dismissal Claims",
+        },
+      ]
+    },
+    {
+      id: 3,
+      navItemType: "NavItemGroup",
+      name: "Medical",
+      navItems: [
+        {
+          id: 0,
+          navItemType: "NavItem",
+          href: "/",
+          text: "Services",
+        },
+        {
+          id: 1,
+          navItemType: "NavItem",
+          href: "/",
+          text: "Key Issues",
         },
       ]
     },
@@ -109,37 +151,40 @@ export default function Header() {
   }, [isOpen, menuClick])
 
   return (
-    <header className = "px-5 sm:flex sm:justify-between sm:items-center sticky">
-      <div className="flex items-center justify-between">
-        <Link
-            to="/"
-          >
-            <StaticImage 
-              alt="company logo" 
-              src="../images/logo.png"
-              className="w-24"
-            />
-        </Link>
-        <button onClick={menuClick} className="block sm:hidden top-nav-button">
-          <Hamburger width="10" height="10" id={"top-nav-hamburger"}/>
-        </button>
+    <header className = "px-5 sm:px-12 pt-5 pb-4 sticky top-0 z-50 bg-white">
+      <div className = "max-w-7xl m-auto lg:flex lg:justify-between">
+        <div className="flex justify-between">
+          <Link
+              to="/"
+            >
+              <StaticImage 
+                alt="company logo" 
+                src="../images/logo.png"
+                className="w-52 sm:w-80"
+              />
+          </Link>
+          <button onClick={menuClick} className="block lg:hidden top-nav-button">
+            <Hamburger className="w-7 sm:w-10 h-7 sm:h-10" svgClassName="cursor-pointer block stroke-ar-blue hover:stroke-ar-b-grey" id={"top-nav-hamburger"}/>
+          </button>
+        </div>
+        <nav className={`${isOpen? "visible opacity-100" : "collapse opacity-0"} flex absolute w-full justify-end lg:opacity-100 lg:visible lg:static lg:w-fit lg:block lg:grow lg:h-min top-nav transition-all duration-300`}>
+          <ul className="flex flex-col bg-white rounded-sm shadow-md lg:shadow-none lg:bg-transparent lg:flex-row lg:justify-end w-60 lg:w-full">
+            {navItems && navItems.map((navItem) => (
+              <li key={navItem.id} className="text-xs sm:text-base font-semibold font-sans text-ar-blue flex items-center border-b-2 border-b-slate-100">
+                {navItem.navItemType === "NavItemGroup" ? (
+                  <NavItemGroup
+                    name={navItem.name}
+                    navItems={navItem.navItems}
+                    className="px-5 py-1"
+                  />
+                ) : (
+                  <Link className="px-5 py-1 hover:text-ar-b-grey" to={navItem.href}>{navItem.text}</Link>
+                )}
+              </li>
+            ))}
+          </ul>
+        </nav>
       </div>
-      <nav className={`${isOpen? "block" : "hidden"} sm:block sm:grow sm:h-min top-nav`}>
-        <ul className="flex flex-col sm:flex-row sm:justify-evenly">
-          {navItems && navItems.map((navItem) => (
-            <li key={navItem.id}>
-              {navItem.navItemType === "NavItemGroup" ? (
-                <NavItemGroup
-                  name={navItem.name}
-                  navItems={navItem.navItems}
-                />
-              ) : (
-                <Link to={navItem.href}>{navItem.text}</Link>
-              )}
-            </li>
-          ))}
-        </ul>
-      </nav>
     </header>
   )
 }
