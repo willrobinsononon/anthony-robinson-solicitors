@@ -15,25 +15,19 @@ export default function Header() {
         {
           id: 0,
           navItemType: "NavItem",
-          href: "/",
-          text: "Why We are Different",
+          href: "/about/anthony-robinson",
+          text: "Anthony Robinson",
         },
         {
           id: 1,
           navItemType: "NavItem",
-          href: "/",
-          text: "Anthony Robinson",
+          href: "/about/testemonials",
+          text: "Testemonials",
         },
         {
           id: 2,
           navItemType: "NavItem",
-          href: "/",
-          text: "Testemonials",
-        },
-        {
-          id: 3,
-          navItemType: "NavItem",
-          href: "/",
+          href: "/about/complaints",
           text: "Complaints Procedure",
         },
       ]
@@ -46,25 +40,25 @@ export default function Header() {
         {
           id: 0,
           navItemType: "NavItem",
-          href: "/",
+          href: "/employers/who-we-work-with",
           text: "Who We Work With",
         },
         {
           id: 1,
           navItemType: "NavItem",
-          href: "/",
+          href: "/employers/key-issues",
           text: "Key Issues",
         },
         {
           id: 2,
           navItemType: "NavItem",
-          href: "/",
+          href: "/employers/services",
           text: "Services",
         },
         {
           id: 3,
           navItemType: "NavItem",
-          href: "/",
+          href: "/employers/defense-costs",
           text: "Defense Costs for Dismissal Claims",
         },
       ]
@@ -77,19 +71,19 @@ export default function Header() {
         {
           id: 0,
           navItemType: "NavItem",
-          href: "/",
-          text: "Services",
+          href: "/employees/key-issues",
+          text: "Key Issues",
         },
         {
           id: 1,
           navItemType: "NavItem",
-          href: "/",
-          text: "Key Issues",
+          href: "/employees/services",
+          text: "Services",
         },
         {
           id: 2,
           navItemType: "NavItem",
-          href: "/",
+          href: "/employees/costs",
           text: "Costs for Dismissal Claims",
         },
       ]
@@ -102,14 +96,14 @@ export default function Header() {
         {
           id: 0,
           navItemType: "NavItem",
-          href: "/",
-          text: "Services",
+          href: "/medical/key-issues",
+          text: "Key Issues",
         },
         {
           id: 1,
           navItemType: "NavItem",
-          href: "/",
-          text: "Key Issues",
+          href: "/medical/services",
+          text: "services",
         },
       ]
     },
@@ -163,7 +157,7 @@ export default function Header() {
                 className="w-52 sm:w-80"
               />
           </Link>
-          <button onClick={menuClick} className="block lg:hidden top-nav-button">
+          <button onClick={menuClick} className="block lg:hidden top-nav-button" aria-label="open menu">
             <Hamburger className="w-7 sm:w-10 h-7 sm:h-10" svgClassName="cursor-pointer block stroke-ar-blue hover:stroke-ar-b-grey" id={"top-nav-hamburger"}/>
           </button>
         </div>

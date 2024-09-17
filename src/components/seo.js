@@ -18,7 +18,7 @@ const SEO = ({ title, description, pathname, children }) => {
         <meta name="image" content={seo.image} />
         
         {/*Essential META Tags */}
-        <meta property="og:title" content="seo.title" />
+        <meta property="og:title" content={seo.title} />
         <meta property="og:type" content="website" />
         <meta property="og:image" content={seo.image} />
         <meta property="og:url" content={seo.url} />

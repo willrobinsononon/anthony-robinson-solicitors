@@ -1,5 +1,6 @@
 import * as React from "react"
 import Header from "./header"
+import Footer from "./footer"
 
 const Layout = ({ children }) => {
 
@@ -8,9 +9,7 @@ const Layout = ({ children }) => {
       <Header/>
       <div>
         <main>{children}</main>
-        <footer className="relative mt-3 text-xs text-center z-20">
-          © {new Date().getFullYear()} &middot; Anthony Robinson Solicitors
-        </footer>
+        <Footer/>
       </div>
     </div>
   )
