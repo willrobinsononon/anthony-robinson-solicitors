@@ -9,28 +9,9 @@ export default function Header() {
   const navItems = [
     {
       id: 0,
-      navItemType: "NavItemGroup",
-      name: "About Us",
-      navItems: [
-        {
-          id: 0,
           navItemType: "NavItem",
-          href: "/about/anthony-robinson",
-          text: "Anthony Robinson",
-        },
-        {
-          id: 1,
-          navItemType: "NavItem",
-          href: "/about/testemonials",
-          text: "Testemonials",
-        },
-        {
-          id: 2,
-          navItemType: "NavItem",
-          href: "/about/complaints",
-          text: "Complaints Procedure",
-        },
-      ]
+          href: "/about",
+          text: "About",
     },
     {
       id: 1,
@@ -83,7 +64,7 @@ export default function Header() {
         {
           id: 2,
           navItemType: "NavItem",
-          href: "/employees/costs",
+          href: "/employees/dismissal-costs",
           text: "Costs for Dismissal Claims",
         },
       ]
@@ -103,7 +84,7 @@ export default function Header() {
           id: 1,
           navItemType: "NavItem",
           href: "/medical/services",
-          text: "services",
+          text: "Services",
         },
       ]
     },

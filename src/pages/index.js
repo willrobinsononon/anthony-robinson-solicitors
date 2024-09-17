@@ -13,12 +13,10 @@ const IndexPage = () => {
         <Hero/>
         <div className="my-5 lg:my-16 max-w-6xl m-auto">
           <div className="shadow-sm font-sans mx-5 sm:mx-12">
-            <div className="flex">
+            <div className="flex bg-ar-o-grey-hi">
               <div className="lg:basis-3/5">
-                <div className="bg-ar-blue py-5 lg:py-10 rounded-tr-md lg:rounded-tr-none rounded-tl-md px-5">
-                  <h2 className="font-extrabold text-xl lg:text-3xl text-white">Why we are different</h2>
-                </div>
-                <div className="bg-ar-o-grey-hi p-5 text-ar-blue">
+                <div className="text-ar-blue pt-5 lg:pt-10 rounded-tr-md lg:rounded-tr-none rounded-tl-md px-5">
+                  <h2 className="font-extrabold text-xl lg:text-3xl mb-5">Why we are different</h2>
                   <p className="mb-2 text-md">
                     At Anthony Robinson Solicitors we are proud to provide a dedicated personal service to all our clients. Our approach is open and friendly, we care about our clients and ensure to offer the best solutions to their problems.</p><p className="mb-2">
 
