@@ -9,7 +9,7 @@ const About = () => {
 
   return (
     <Layout>
-        <InnerPage title="About" image={
+        <InnerPage title="About" sidebar={true} image={
           <StaticImage 
             alt="" 
             src="../images/title1.jpg"

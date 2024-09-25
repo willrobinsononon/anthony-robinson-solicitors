@@ -4,7 +4,9 @@ const InnerPageSection = ({title, children}) => {
 
   return (
     <div className="text-ar-blue mb-10 lg:mb-16">
-        <h2 className="font-extrabold text-2xl lg:text-3xl mb-6 lg:mb-10">{title}</h2>
+        {title &&
+          <h2 className="font-extrabold text-2xl lg:text-3xl mb-6 lg:mb-10">{title}</h2>
+        }
         {children}
     </div>
   )
