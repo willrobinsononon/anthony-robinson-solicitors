@@ -88,6 +88,12 @@ export default function Header() {
         },
       ]
     },
+    {
+      id: 4,
+      navItemType: "NavItem",
+      href: "/medical/contact",
+      text: "Contact",
+    },
   ]
 
   const [isOpen, setIsOpen] = React.useState(false)
@@ -142,7 +148,7 @@ export default function Header() {
             <Hamburger className="w-7 sm:w-10 h-7 sm:h-10" svgClassName="cursor-pointer block stroke-ar-blue hover:stroke-ar-b-grey" id={"top-nav-hamburger"}/>
           </button>
         </div>
-        <nav className={`${isOpen? "visible opacity-100" : "collapse opacity-0"} flex absolute w-full justify-end lg:opacity-100 lg:visible lg:static lg:w-fit lg:block lg:grow lg:h-min top-nav transition-all duration-300`}>
+        <nav className={`${isOpen? "visible opacity-100" : "collapse opacity-0"} flex absolute left-0 w-full justify-end lg:opacity-100 lg:visible lg:static lg:w-fit lg:block lg:grow lg:h-min top-nav transition-all duration-300`}>
           <ul className="flex flex-col bg-white rounded-sm shadow-md lg:shadow-none lg:bg-transparent lg:flex-row lg:justify-end w-60 lg:w-full">
             {navItems && navItems.map((navItem) => (
               <li key={navItem.id} className="text-xs sm:text-base font-semibold font-sans text-ar-blue flex items-center border-b-2 border-b-slate-100">

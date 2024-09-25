@@ -13,13 +13,13 @@ const Footer = () => {
               <StaticImage 
                 alt="" 
                 src="../images/meeting-crop.jpg"
-                className="min-w-full [gridArea:1/1] z-0"
+                className="min-w-full max-h-96 [gridArea:1/1] z-0"
                 imgClassName="brightness-50"
                 layout="fullWidth"
               />
-              <div className="z-20 [gridArea:1/1] text-white font-sans">
-                <div className="max-w-6xl m-auto">
-                  <div className="pt-10 sm:pt-20 mx-5 sm:mx-12 pb-2 sm:pb-5">
+              <div className="z-20 [gridArea:1/1] text-white font-sans px-8">
+                <div className="max-w-5xl m-auto">
+                  <div className="pt-10 sm:pt-20 pb-2 sm:pb-5">
                     <div className="mb-5">
                         <Link to="/contact">
                             <span className="font-extrabold text-2xl sm:text-4xl text-white hover:text-ar-orange-hi">Get in touch</span>
@@ -34,9 +34,9 @@ const Footer = () => {
             </div>
             </div>
         </div>
-        <div className="bg-ar-blue border-t-2 border-white">
+        <div className="bg-ar-blue border-t-2 border-white px-4">
             <div className="max-w-6xl m-auto">
-                <div className="py-5 mx-5 sm:mx-12 flex flex-col gap-3 sm:flex-row">
+                <div className="py-5 flex flex-col gap-3 sm:flex-row">
                     <div className="sm:basis-3/5 flex flex-col gap-3 text-white font-sans">
                         <div>
                         <p>

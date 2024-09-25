@@ -1,20 +1,13 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import ContactForm from "./contact-form"
+import Testimonials from "./testimonials"
 
 const Sidebar = () => {
 
   return (
-    <div>
-        <div>
-            Additional section info
-        </div>
-        <div>
-            Contact section
-        </div>
-        <div>
-            Testemonials
-        </div>
+    <div className="flex flex-col gap-20">
+        <ContactForm/>
+        <Testimonials/>
     </div>
   )
 }

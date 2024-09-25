@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 
 const Hero = () => {
     return (
-        <div className="grid hero min-h-vh-nav sm:h-vh-nav-sm">
+        <div className="grid hero min-h-vh-nav sm:h-vh-nav-sm sm:min-h-fit">
           <StaticImage 
                     alt="" 
                     src="../images/blur.png"
