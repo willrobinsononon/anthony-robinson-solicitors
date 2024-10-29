@@ -1,11 +1,11 @@
 import * as React from "react"
-import Layout from "../../components/layout"
-import SEO from "../../components/seo"
-import Title from "../../components/title"
-import Sidebar from "../../components/sidebar"
+import Layout from "../../../components/layout"
+import SEO from "../../../components/seo"
+import Title from "../../../components/title"
+import Sidebar from "../../../components/sidebar"
 import {StaticImage} from "gatsby-plugin-image"
 
-const EmployersKeyIssues = () => {
+const SicknessAbsence = () => {
 
   return (
     <>
@@ -53,6 +53,6 @@ const EmployersKeyIssues = () => {
   )
 }
 
-export default EmployersKeyIssues
+export default SicknessAbsence
 
 export const Head = () => <SEO />

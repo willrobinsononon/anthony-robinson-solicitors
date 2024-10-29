@@ -2,7 +2,7 @@ import * as React from "react"
 import Title from "../components/title"
 import Sidebar from "../components/sidebar"
 
-const InnerPage = ({title, sidebar, image, children}) => {
+const InnerPage = ({title, sidebar, testimonials, image, children}) => {
 
   return (
     <>
@@ -18,7 +18,7 @@ const InnerPage = ({title, sidebar, image, children}) => {
                     {children}
                 </div>
                 <div className="basis-1/3">
-                  <Sidebar />
+                  <Sidebar testimonials={testimonials} />
                 </div> 
               </div>
             }

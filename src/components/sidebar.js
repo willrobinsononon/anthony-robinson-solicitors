@@ -2,12 +2,14 @@ import * as React from "react"
 import ContactForm from "./contact-form"
 import Testimonials from "./testimonials"
 
-const Sidebar = () => {
+const Sidebar = ({testimonials}) => {
 
   return (
     <div className="flex flex-col gap-20">
         <ContactForm/>
-        <Testimonials/>
+        {testimonials &&
+          <Testimonials/>
+        }
     </div>
   )
 }

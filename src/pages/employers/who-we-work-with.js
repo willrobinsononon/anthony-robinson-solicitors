@@ -1,55 +1,46 @@
 import * as React from "react"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
-import Title from "../../components/title"
-import Sidebar from "../../components/sidebar"
 import {StaticImage} from "gatsby-plugin-image"
+import InnerPage from "../../components/inner-page"
+import InnerPageSection from "../../components/inner-page-section"
 
 const WhoWeWorkWith = () => {
 
   return (
-    <>
-      <Layout>
-        <Title title="Title" image={
+    <Layout>
+        <InnerPage title="Who We Work With" sidebar={true} testimonials={true} image={
           <StaticImage 
             alt="" 
-            src="../../images/title1.jpg"
-            className="min-w-full [gridArea:1/1] z-0"
+            src="../../images/title2.jpg"
+            className="[gridArea:1/1] z-0"
             imgClassName="brightness-50"
             layout="fullWidth"
-          />} 
-        />
-        <div className="my-5 lg:my-16 px-5 sm:px-12 max-w-7xl m-auto flex">
-            <div className="font-sans mx-5 sm:mx-12">
-                <div className="flex gap-5">
-                    <div className="basis-2/3">
-                        <div>
-                            <div className="py-5 lg:py-10 px-5">
-                                <h2 className="font-extrabold text-xl lg:text-3xl text-ar-blue">Title</h2>
-                            </div>
-                            <div className="p-5 text-ar-blue">
-                                <p className="mb-2 text-md">
-                                    At Anthony Robinson Solicitors we are proud to provide a dedicated personal service to all our clients. Our approach is open and friendly, we care about our clients and ensure to offer the best solutions to their problems.</p><p className="mb-2">
+          />}
+        >
+            <InnerPageSection title={false}>
+              <p>
+                If you are looking for an employment solicitor, we are here to help. Is your business making the most of its primary resource – its employees?
 
-                                    We strive to understand your individual needs and at the outset will give you clear and sensible advice and assistance. Once we have worked with you to decide the way forward we will do all we can to obtain the result you are looking for.</p><p className="mb-2">
+                At Anthony Robinson Solicitors we advise on critical aspects of employment law that play such an important role in the performance of an organisation.
 
-                                    We specialise solely in employment law, meaning that if you instruct us you will be represented by a solicitor who is fully up-to-date with the latest developments in this dynamic and complex field of law.
+                As an employment solicitor we can help you find ways to improve the successful running of your business, such as putting policies in place to promote productivity, effecting reorganisations to improve efficiency and using employment contracts to protect your business from competition.
 
-                                    Our personable, friendly service ensures that your concerns are always listened to, and you can relax safe in the knowledge you are in good hands.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="basis-1/3">
-                        <Sidebar />
-                    </div>
-                </div>
-            </div>
-        </div>
-      </Layout>
-      
-    </>
-      
+                We help businesses of all shapes and sizes.  Much of our work is with companies and organisations of a medium size, employing staff numbering between 20 and 200 employees.
+
+                However businesses with only one employee need to have a contract of employment in place and numerous issues can arise upon which a small organisation need advice from an employment solicitor.
+
+                We also welcome instructions from larger organisations, particularly where a human resources department needs specialist employment advice to support the valuable work it undertakes.
+
+                Our aim at all times is to assist organisations of whatever nature to navigate the treacherous waters of employment law successfully.
+
+                For further information please do not hesitate to call us on 0161 929 1921 or contact us here for a free no-obligation chat.
+
+                Our legal services cover the areas of Manchester, Altrincham, Stockport, Wilmslow, Knutsford, Warrington and Cheshire.
+              </p>
+            </InnerPageSection>
+        </InnerPage>
+    </Layout>
   )
 }
 

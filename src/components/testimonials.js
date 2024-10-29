@@ -2,7 +2,7 @@ import * as React from "react"
 
 const Testimonials = () => {
 
-    const [currentQuoteIndex, setCurrentQuoteIndex] = React.useState(0)
+    const [currentQuoteIndex, setCurrentQuoteIndex] = React.useState(Math.floor(Math.random() * 4))
     const [animateClass, setAnimateClass] = React.useState("opacity-100")
 
     const quotes = [
@@ -65,15 +65,15 @@ const Testimonials = () => {
         <div onTransitionEnd = {transitionHandler} className={`text-ar-blue transition-all duration-500 ${animateClass}`}>
             <div>
                 <div className="font-serif text-6xl h-8">“</div>
-                <div className="px-3 text-ar-o-grey">{quotes[currentQuoteIndex].quote}</div>
+                <div className="px-3 text-ar-o-grey text-lg">{quotes[currentQuoteIndex].quote}</div>
                 <div className="font-serif text-6xl text-right h-8">”</div>
             </div>
-            <div className="text-lg font-semibold text-center">
+            <div className="text-xl font-semibold text-center">
                 {quotes[currentQuoteIndex].name}
             </div>
             {quotes[
                 currentQuoteIndex].title && 
-                <div className="font-semibold text-center">
+                <div className="font-semibold text-center text-lg">
                     {quotes[currentQuoteIndex].title}
                 </div>
             }

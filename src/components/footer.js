@@ -37,7 +37,7 @@ const Footer = () => {
         <div className="bg-ar-blue border-t-2 border-white px-4">
             <div className="max-w-6xl m-auto">
                 <div className="py-5 flex flex-col gap-3 sm:flex-row">
-                    <div className="sm:basis-3/5 flex flex-col gap-3 text-white font-sans">
+                    <div className="sm:basis-3/5 flex flex-col gap-3 text-white font-sans text-lg">
                         <div>
                         <p>
                             Anthony Robinson Solicitors,<br/>
@@ -51,6 +51,11 @@ const Footer = () => {
                             <Link to="tel:01619291921">
                                 0161 929 1921
                             </Link>
+                        </div>
+                        <div>
+                          <Link to="/complaints" className="underline">
+                            Complaints
+                          </Link>
                         </div>
                         <div>
                             © {new Date().getFullYear()} &middot; Anthony Robinson Solicitors
