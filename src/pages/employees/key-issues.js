@@ -29,13 +29,20 @@ const EmployeesKeyIssues = () => {
                             </div>
                             <div className="p-5 text-ar-blue">
                                 <p className="mb-2 text-md">
-                                    At Anthony Robinson Solicitors we are proud to provide a dedicated personal service to all our clients. Our approach is open and friendly, we care about our clients and ensure to offer the best solutions to their problems.</p><p className="mb-2">
+                                Key issues
+                                Here are some of the common questions we deal with on a regular basis:
 
-                                    We strive to understand your individual needs and at the outset will give you clear and sensible advice and assistance. Once we have worked with you to decide the way forward we will do all we can to obtain the result you are looking for.</p><p className="mb-2">
-
-                                    We specialise solely in employment law, meaning that if you instruct us you will be represented by a solicitor who is fully up-to-date with the latest developments in this dynamic and complex field of law.
-
-                                    Our personable, friendly service ensures that your concerns are always listened to, and you can relax safe in the knowledge you are in good hands.
+                                Do I have a claim for unfair dismissal?
+                                What do I do if my employer is setting unreasonable targets and then threatening to dismiss me?
+                                What holidays am I entitled to when returning after illness?
+                                What should I do if I feel that I am being unfairly discriminated against?
+                                What reasonable adjustments does my employer have to make to allow for my disability?
+                                What are my rights after maternity leave?
+                                What do I need to know before entering into a compromise agreement?
+                                What do I do about my former employer threatening me for being in competition?
+                                Do I have a whistleblowing claim?
+                                Can I do anything about a misleading and damaging reference?
+                                If you need help answering these and other questions, we’d be delighted to help and provide detailed advice on outcomes as they arise. Contact us today.
                                 </p>
                             </div>
                         </div>

@@ -48,7 +48,7 @@ export default function NavItemGroup({ className, name, navItems, subGroup = fal
       </button>
         <div
           data-id={`${name}-popup-box`}
-          className={`${isOpen ? "visible ease-out" : "collapse max-h-0 ease-in"} ${subGroup ? "" : "lg:absolute lg:shadow-md"} bg-white rounded-sm shadow-none w-auto px-5 transition-all duration-200 -z-10`}
+          className={`${isOpen ? "visible ease-out" : "collapse max-h-0 ease-in"} ${subGroup ? "" : "lg:absolute lg:shadow-md pt-2"} bg-white rounded-sm shadow-none w-auto px-5 transition-all duration-200 -z-10`}
         >
           <ul className={`${isOpen ? "opacity-100 ease-in" : "opacity-0 ease-out"} flex flex-col transition-all duration-200`}>
             {navItems.map((navItem) => (

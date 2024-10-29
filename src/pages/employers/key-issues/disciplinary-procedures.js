@@ -4,16 +4,17 @@ import SEO from "../../../components/seo"
 import Title from "../../../components/title"
 import Sidebar from "../../../components/sidebar"
 import {StaticImage} from "gatsby-plugin-image"
+import { Link } from "gatsby"
 
 const DisciplinaryProcedures = () => {
 
   return (
     <>
       <Layout>
-        <Title title="Title" image={
+        <Title title="Disciplinary Procedures" image={
           <StaticImage 
             alt="" 
-            src="../../images/title1.jpg"
+            src="../../../images/title1.jpg"
             className="min-w-full [gridArea:1/1] z-0"
             imgClassName="brightness-50"
             layout="fullWidth"
@@ -24,19 +25,42 @@ const DisciplinaryProcedures = () => {
                 <div className="flex gap-5">
                     <div className="basis-2/3">
                         <div>
-                            <div className="py-5 lg:py-10 px-5">
-                                <h2 className="font-extrabold text-xl lg:text-3xl text-ar-blue">Title</h2>
-                            </div>
-                            <div className="p-5 text-ar-blue">
-                                <p className="mb-2 text-md">
-                                    At Anthony Robinson Solicitors we are proud to provide a dedicated personal service to all our clients. Our approach is open and friendly, we care about our clients and ensure to offer the best solutions to their problems.</p><p className="mb-2">
-
-                                    We strive to understand your individual needs and at the outset will give you clear and sensible advice and assistance. Once we have worked with you to decide the way forward we will do all we can to obtain the result you are looking for.</p><p className="mb-2">
-
-                                    We specialise solely in employment law, meaning that if you instruct us you will be represented by a solicitor who is fully up-to-date with the latest developments in this dynamic and complex field of law.
-
-                                    Our personable, friendly service ensures that your concerns are always listened to, and you can relax safe in the knowledge you are in good hands.
-                                </p>
+                            <div className="px-5 text-ar-blue text-lg">
+                                <p className="mb-5 lg:mb-10 text-xl lg:text-2xl font-bold">
+                                  There are times when employers have concerns or issues regarding an employee’s work. 
+                                  It is important for employers to follow due process when managing a disciplinary procedure.
+                                </p><p className="mb-5 ">
+                                  In order to do this there should be a written disciplinary procedure in place which is accessible to all employees. 
+                                  This should clearly outline what type of behaviour and performance could lead to disciplinary action, the action the employer is likely to take
+                                   and it should confirm that there will be an opportunity for the employee to provide an explanation.
+                                </p><p className="mb-5 lg:mb-10">
+                                  Once the disciplinary procedure has been clearly defined, the employer is able to follow a 
+                                  pre-defined structure which will ensure that the disciplinary procedure will be handled correctly and fairly for both parties.
+                                </p><p className="mb-5 lg:mb-10 text-xl lg:text-2xl font-bold">
+                                  As employment lawyers, we have the experience and the expertise needed to help both employers and employees.
+                                </p><p className="font-bold">
+                                  So whether you are an employer requiring assistance with:
+                                </p><p className="mb-5">  
+                                  <ul className="list-disc pl-8">
+                                    <li className="py-1">drawing up a disciplinary procedure as a standalone policy or as part of a company handbook</li>
+                                    <li className="py-1">implementing the procedure and following it fairly</li>
+                                    <li className="py-1">helping with an appeal that by the employee</li>
+                                  </ul>
+                                </p><p className="font-bold ">
+                                  or an employee requiring assistance with:
+                                </p><p className="mb-5">
+                                  <ul className="list-disc pl-8">
+                                    <li className="py-1">preparing for a disciplinary hearing</li>
+                                    <li className="py-1">exercising your right of appeal against disciplinary action</li>
+                                    <li className="py-1">instituting legal action for unfair dismissal</li>
+                                  </ul>
+                                </p><p className="mb-5 font-bold">
+                                  we can help.
+                                </p><p className="mb-5 ">
+                                  We focus exclusively upon employment law, meaning that you can be sure that you will receive a high-quality personal service that can deal with all aspects of this ever-changing area.
+                                </p><p className="mb-5 ">
+                                  Please do not hesitate to <Link to="/contact"><div className="bg-ar-orange hover:bg-ar-orange-hi hover:text-black rounded-xl px-3 inline-block">Contact Us</div></Link>  if you have any queries regarding employment law.
+                              </p>
                             </div>
                         </div>
                     </div>

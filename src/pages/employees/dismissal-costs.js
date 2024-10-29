@@ -29,13 +29,39 @@ const DismissalCosts = () => {
                             </div>
                             <div className="p-5 text-ar-blue">
                                 <p className="mb-2 text-md">
-                                    At Anthony Robinson Solicitors we are proud to provide a dedicated personal service to all our clients. Our approach is open and friendly, we care about our clients and ensure to offer the best solutions to their problems.</p><p className="mb-2">
+                                  Employees: Costs of bringing an unfair/wrongful dismissal claim
+                                  At Anthony Robinson Solicitors we always seek to provide a high quality service whilst giving excellent value to our clients.
 
-                                    We strive to understand your individual needs and at the outset will give you clear and sensible advice and assistance. Once we have worked with you to decide the way forward we will do all we can to obtain the result you are looking for.</p><p className="mb-2">
+                                  Our primary objective is to secure the best possible outcome for you as efficiently as possible. The costs for advice and representation for bringing an unfair dismissal or wrongful dismissal before the Employment Tribunal are set out below but can vary depending upon the complexity of the case and the stage reached.
 
-                                    We specialise solely in employment law, meaning that if you instruct us you will be represented by a solicitor who is fully up-to-date with the latest developments in this dynamic and complex field of law.
+                                  Category of case	Likely ARS costs (excl VAT)
+                                  Relatively straightforward	 £2,500 – £7,500
+                                  Medium Complexity	£7,500 – £12,500
+                                  High Complexity	£12,500 – £25,000
+                                  Factors that affect the complexity of the case and the likely costs:
 
-                                    Our personable, friendly service ensures that your concerns are always listened to, and you can relax safe in the knowledge you are in good hands.
+                                  • The extent to which the factual history may be convoluted
+                                  • The number of witnesses
+                                  • The extent of documentation
+                                  • The number of days that will be required to hear the case
+                                  • If there are additional complicating factors, such as whistleblowing
+                                  • If there are allegations of discrimination linked to the dismissal
+                                  • A new or complex issue of law
+                                  • The extent of loss claimed, where this is significant, or complex areas of loss such as loss of long-term incentives or pension
+                                  • If it is necessary to deal with applications to the tribunal, such as an application to amend the claim or preliminary issues such as whether the claim was brought in time
+                                  • Dealing with matters where the opponent deals with the case inefficiently or unreasonably
+
+                                  Other costs related to the matter that may be payable
+
+                                  • Barristers’ fees. These will be payable if the case proceeds to a hearing and range from in the region of £500 to £1,500 plus VAT per day for attending a Tribunal Hearing, together with a preparation fee (a “brief fee”) ranging from £500 to £1,500 plus VAT for a one-day Hearing and increasing incrementally by a similar amount for each additional day allocated to the Hearing. The range of fees per day and for preparation will depend upon the seniority of counsel instructed.
+
+                                  Funding
+
+                                  We will advise you of any funding options that may be available to you. For example you may have insurance which can cover your legal expenses or we may be able to enter into a Damages-Based Agreement.
+
+                                  Typical timescales
+
+                                  The time taken for the case to conclude can depend upon many factors and in particular whether the case is resolved through reaching a settlement or whether a full hearing is necessary. A claim may be dealt with in a matter of weeks through settlement or it may take in the region of six to twelve months to conclude if the case proceeds to a full hearing.
                                 </p>
                             </div>
                         </div>

@@ -29,13 +29,19 @@ const MedicalKeyIssues = () => {
                             </div>
                             <div className="p-5 text-ar-blue">
                                 <p className="mb-2 text-md">
-                                    At Anthony Robinson Solicitors we are proud to provide a dedicated personal service to all our clients. Our approach is open and friendly, we care about our clients and ensure to offer the best solutions to their problems.</p><p className="mb-2">
+                                Common issues that may apply to you that we deal with on a regular basis:
 
-                                    We strive to understand your individual needs and at the outset will give you clear and sensible advice and assistance. Once we have worked with you to decide the way forward we will do all we can to obtain the result you are looking for.</p><p className="mb-2">
+                              Have the GMC initiated proceedings against you?
+                              Have you been invited to an IOP Hearing?
+                              Has your application for inclusion on the specialist register been rejected?
+                              Are you encountering difficulties with your Hospital Trust or PCT?
+                              Do you believe you may be suffering from some form of discrimination?
+                              Have you been made a scapegoat for a procedure with a tragic outcome?
+                              Is there an issue surrounding your pay or conditions?
+                              Have you been contingently removed from the PCT Performers’ List?
+                              Does your GP surgery need advice upon employment issues?
+                              Is there a problem with your partnership agreement?
 
-                                    We specialise solely in employment law, meaning that if you instruct us you will be represented by a solicitor who is fully up-to-date with the latest developments in this dynamic and complex field of law.
-
-                                    Our personable, friendly service ensures that your concerns are always listened to, and you can relax safe in the knowledge you are in good hands.
                                 </p>
                             </div>
                         </div>

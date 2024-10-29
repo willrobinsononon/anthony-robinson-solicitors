@@ -29,13 +29,20 @@ const MedicalServices = () => {
                             </div>
                             <div className="p-5 text-ar-blue">
                                 <p className="mb-2 text-md">
-                                    At Anthony Robinson Solicitors we are proud to provide a dedicated personal service to all our clients. Our approach is open and friendly, we care about our clients and ensure to offer the best solutions to their problems.</p><p className="mb-2">
+                                  We provide a comprehensive range of services to ensure that if you encounter difficulties we are here to be of help. Our services include:
 
-                                    We strive to understand your individual needs and at the outset will give you clear and sensible advice and assistance. Once we have worked with you to decide the way forward we will do all we can to obtain the result you are looking for.</p><p className="mb-2">
+                                  Acting on your behalf in GMC proceedings, including IOP Hearings, FTP hearings
+                                  Assisting with applications for inclusion on the specialist register
+                                  Advising upon the terms and conditions of your employment
+                                  Acting on your behalf in Employment Tribunal or High Court proceedings including:Claims for unfair dismissal, including constructive dismissal
+                                  Claims for unlawful deductions from wages
+                                  Breach of contract claims
+                                  Claims for discrimination, whether it be on the grounds of race, sex, disability, sexual orientation, age or religion or belief
+                                  Equal pay claims
+                                  Whistleblowing claims
+                                  Advising upon the terms and effect of Compromise Agreements
+                                  Representation in disciplinary hearings and appeal hearings
 
-                                    We specialise solely in employment law, meaning that if you instruct us you will be represented by a solicitor who is fully up-to-date with the latest developments in this dynamic and complex field of law.
-
-                                    Our personable, friendly service ensures that your concerns are always listened to, and you can relax safe in the knowledge you are in good hands.
                                 </p>
                             </div>
                         </div>

@@ -32,37 +32,37 @@ export default function Header() {
             {
               id: 0,
               navItemType: "NavItem",
-              href: "/employees/employment-contracts",
+              href: "/employers/key-issues/employment-contracts",
               text: "Employment Contracts",
             },
             {
               id: 1,
               navItemType: "NavItem",
-              href: "/employers/sickness-absence",
+              href: "/employers/key-issues/sickness-absence",
               text: "Sickness and Absence",
             },
             {
               id: 2,
               navItemType: "NavItem",
-              href: "/employees/redundancy",
+              href: "/employers/key-issues/redundancy",
               text: "Redundancy",
             },
             {
               id: 3,
               navItemType: "NavItem",
-              href: "/employees/transfer-of-undertakings",
+              href: "/employers/key-issues/transfer-of-undertakings",
               text: "Transfer of Undertakings - TUPE",
             },
             {
               id: 4,
               navItemType: "NavItem",
-              href: "/employers/disciplinary-procedures",
+              href: "/employers/key-issues/disciplinary-procedures",
               text: "Disciplinary Procedures",
             },
             {
               id: 5,
               navItemType: "NavItem",
-              href: "/employers/discrimination-in-the-workplace",
+              href: "/employers/key-issues/discrimination-in-the-workplace",
               text: "Discrimination in the Workplace",
             },
           ]
@@ -89,17 +89,23 @@ export default function Header() {
         {
           id: 0,
           navItemType: "NavItem",
+          href: "/employees/how-we-can-help",
+          text: "How We Can Help",
+        },
+        {
+          id: 1,
+          navItemType: "NavItem",
           href: "/employees/key-issues",
           text: "Key Issues",
         },
         {
-          id: 1,
+          id: 2,
           navItemType: "NavItem",
           href: "/employees/services",
           text: "Services",
         },
         {
-          id: 2,
+          id: 3,
           navItemType: "NavItem",
           href: "/employees/dismissal-costs",
           text: "Costs for Dismissal Claims",
@@ -114,11 +120,17 @@ export default function Header() {
         {
           id: 0,
           navItemType: "NavItem",
+          href: "/medical/how-we-can-help",
+          text: "How We Can Help",
+        },
+        {
+          id: 1,
+          navItemType: "NavItem",
           href: "/medical/key-issues",
           text: "Key Issues",
         },
         {
-          id: 1,
+          id: 2,
           navItemType: "NavItem",
           href: "/medical/services",
           text: "Services",

@@ -29,13 +29,19 @@ const TransferOfUndertakings = () => {
                             </div>
                             <div className="p-5 text-ar-blue">
                                 <p className="mb-2 text-md">
-                                    At Anthony Robinson Solicitors we are proud to provide a dedicated personal service to all our clients. Our approach is open and friendly, we care about our clients and ensure to offer the best solutions to their problems.</p><p className="mb-2">
+                                  If you decide to take over another business or changing a contractor providing services you need to be aware of Transfer of Undertakings legislation.
 
-                                    We strive to understand your individual needs and at the outset will give you clear and sensible advice and assistance. Once we have worked with you to decide the way forward we will do all we can to obtain the result you are looking for.</p><p className="mb-2">
+                                  Employers have to tread extremely carefully when dealing with the Transfer of Undertakings (Protection of Employment) Regulations 2006 (“TUPE”) which apply in such circumstances. Getting it wrong can be very expensive.
 
-                                    We specialise solely in employment law, meaning that if you instruct us you will be represented by a solicitor who is fully up-to-date with the latest developments in this dynamic and complex field of law.
+                                  For example if there is a failure to carry out the duty to inform and consult with the affected employees then the businesses can be liable to pay compensation of up to 13 week’s uncapped pay!
 
-                                    Our personable, friendly service ensures that your concerns are always listened to, and you can relax safe in the knowledge you are in good hands.
+                                  Then there is a high degree of protection for transferring employees, meaning that dismissal for a reason connected with the transfer will be automatically unfair unless it is for an economic, technological or organisational reason entailing changes in the workforce (an “ETO reason”), with limitations upon when this reason will apply.
+
+                                  Businesses often face issues as to the terms and conditions of the transferring employees and may wish to consider altering these to align them with the workforce already in place, for example if the rates of pay of the incoming staff are higher. However such changes will be unlawful unless they are unconnected to the transfer or for an ETO reason, so again employers must beware taking such action and should never do so without taking legal advice.
+
+                                  If you need expert advice and assistance with TUPE issues please contact Anthony Robinson or call 0161 929 1921 for a free, no obligation initial conversation.
+
+                                  Our legal services cover the areas of Manchester, Altrincham, Warrington, Stockport, Wilmslow, Knutsford and Cheshire.
                                 </p>
                             </div>
                         </div>

@@ -29,14 +29,50 @@ const DiscriminationWorkplace = () => {
                             </div>
                             <div className="p-5 text-ar-blue">
                                 <p className="mb-2 text-md">
-                                    At Anthony Robinson Solicitors we are proud to provide a dedicated personal service to all our clients. Our approach is open and friendly, we care about our clients and ensure to offer the best solutions to their problems.</p><p className="mb-2">
+                                  Are you or do you know someone who has been a victim of discrimination in the workplace?
 
-                                    We strive to understand your individual needs and at the outset will give you clear and sensible advice and assistance. Once we have worked with you to decide the way forward we will do all we can to obtain the result you are looking for.</p><p className="mb-2">
+                                  This may be based on age, disability, gender reassignment, marriage and civil partnership, pregnancy and maternity, race, religion or belief, sex, or sexual orientation.
 
-                                    We specialise solely in employment law, meaning that if you instruct us you will be represented by a solicitor who is fully up-to-date with the latest developments in this dynamic and complex field of law.
+                                  All employees have a right to be treated fairly at work, the law protects you against discrimination in the workplace including issues regarding;
 
-                                    Our personable, friendly service ensures that your concerns are always listened to, and you can relax safe in the knowledge you are in good hands.
-                                </p>
+                                  Employment terms and conditions
+                                  Pay and benefits
+                                  Promotion and transfer opportunities
+                                  Training
+                                  Recruitment
+                                  Dismissal
+                                  Redundancy
+                                  Less favourable treatment
+                                  We have gained a wealth of experience and established an excellent reputation with regard to providing an approachable and efficient service to those who have become a victim of discrimination in the workplace.
+
+                                  Do you know what action you can take?
+
+                                  Depending on the circumstances, there are a number of steps individuals can take if they feel they are being discriminated against. The Equality Act 2010 simplified previous laws on discrimination and created a single piece of clear and simple legislation.
+
+                                  Do you know who can be held liable?
+
+                                  If another employee acts in a way that is discriminatory in the course of their employment, the employer can be held liable.
+
+                                  What proof is required to demonstrate discrimination in the workplace has occurred?
+
+                                  If the individual making the claim can provide adequate proof to establish a “prima facie” case of discrimination, the burden of proof will shift to the employer who will need to prove that the action complained of was not discriminatory.
+
+                                  Do you know how to raise a grievance?
+
+                                  If you have tried to resolve the matter informally with no success you may wish to  raise a formal grievance and we can advise on how to approach this in the best way. Any compensation awarded can be reduced if the statutory grievance procedure has not been followed.
+
+                                  Compensation
+
+                                  If the tribunal finds in favour of the individual there is no set limit to the compensation a tribunal can award for discrimination. As well as compensation for losses the tribunal will make an award for injury to feelings.
+
+                                  Employers
+
+                                  Employers have a duty to comply with the law on discrimination and should do all possible to prevent discrimination in the workplace. Is your organisation well-equipped to deal with all employment issues that may involve discrimination? We can assist with drawing up policies and procedures and we are well-placed to advise on a course of action to address your particular situation if a case of discrimination has been identified.
+
+                                  Whether you are an employer or an employee, Anthony Robinson Solicitors can guide you through all processes that are relevant to discrimination arising in the workplace.
+
+                                  Contact us today.
+                              </p>
                             </div>
                         </div>
                     </div>

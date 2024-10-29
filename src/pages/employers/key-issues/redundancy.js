@@ -29,13 +29,23 @@ const Redundancy = () => {
                             </div>
                             <div className="p-5 text-ar-blue">
                                 <p className="mb-2 text-md">
-                                    At Anthony Robinson Solicitors we are proud to provide a dedicated personal service to all our clients. Our approach is open and friendly, we care about our clients and ensure to offer the best solutions to their problems.</p><p className="mb-2">
+                                  If you are involved in restructuring your organisation or if there is a reduction in the need for certain kinds of work to be undertaken, do you know how to deal with a redundancy situation safely?
 
-                                    We strive to understand your individual needs and at the outset will give you clear and sensible advice and assistance. Once we have worked with you to decide the way forward we will do all we can to obtain the result you are looking for.</p><p className="mb-2">
+                                  Redundancy is one of the fair reasons for dismissal. This is where there is a reduced requirement for employees to carry out work of a particular kind or where the need for work has ceased or diminished at a particular workplace.
 
-                                    We specialise solely in employment law, meaning that if you instruct us you will be represented by a solicitor who is fully up-to-date with the latest developments in this dynamic and complex field of law.
+                                  It is vital that the employer carries out a fair procedure to avoid the risk of a tribunal claim. This will include:
 
-                                    Our personable, friendly service ensures that your concerns are always listened to, and you can relax safe in the knowledge you are in good hands.
+                                  • identifying the employees at risk and advising them at an early stage;
+                                  • considering the “pool for selection” from which the employees will be chosen to be made redundant;
+                                  • drafting fair and objective selection criteria;
+                                  • applying the chosen criteria fairly and objectively when identifying the employees that the employer proposes to make redundant;
+                                  • consulting with the employees provisionally selected for redundancy;
+                                  • considering whether there are any suitable alternative positions available to offer to the employees concerned;
+                                  • ensuring that the employees to be dismissed are paid the sums to which they are entitled.
+
+                                  There is also a requirement for collective consultation and notification of the Secretary of State where 20 or more employees are being made redundant within a 90-day period.
+
+                                  If you need expert advice and assistance upon issues arising out of redundancy situations please contact Anthony Robinson or phone  0161 929 1921.
                                 </p>
                             </div>
                         </div>

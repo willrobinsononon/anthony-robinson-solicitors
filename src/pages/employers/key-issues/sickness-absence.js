@@ -29,13 +29,15 @@ const SicknessAbsence = () => {
                             </div>
                             <div className="p-5 text-ar-blue">
                                 <p className="mb-2 text-md">
-                                    At Anthony Robinson Solicitors we are proud to provide a dedicated personal service to all our clients. Our approach is open and friendly, we care about our clients and ensure to offer the best solutions to their problems.</p><p className="mb-2">
+                                  Do you have problems with sickness absence?  Do you get frustrated because some employees have too many days off ill, affecting staff morale and the productivity of your business?
 
-                                    We strive to understand your individual needs and at the outset will give you clear and sensible advice and assistance. Once we have worked with you to decide the way forward we will do all we can to obtain the result you are looking for.</p><p className="mb-2">
+                                  This can’t be eliminated – there’ll always be illness and genuine reasons for absence – but you can take steps to minimise the extent of unwarranted absenteeism that occurs.  First and foremost you need a sickness absence policy in place and we can draft this for you or check whether your existing policy is doing all it should.  Having a sound policy will help you deal with absences consistently and effectively and will also place employees on notice as to the standards that you expect.
 
-                                    We specialise solely in employment law, meaning that if you instruct us you will be represented by a solicitor who is fully up-to-date with the latest developments in this dynamic and complex field of law.
+                                  We will also advise you as to the best processes to adopt to manage absences in the workplace including return-to-work interviews, identifying underlying causes of regular short-term absence, obtaining medical evidence and making reasonable adjustments to working conditions.  Where the sickness absence is not genuine or where the employee’s return to work is unlikely we will provide clear guidance to ensure you deal with the issue fairly and safely and take all relevant issues into account.
 
-                                    Our personable, friendly service ensures that your concerns are always listened to, and you can relax safe in the knowledge you are in good hands.
+                                  Adopting fair procedures and dealing with matters openly and reasonably at all stages will not only minimise the risk of an Employment Tribunal claim but also help you establish a loyal and motivated workforce.
+
+                                  If you need expert advice and assistance with sickness absence issues please contact Anthony Robinson on ….
                                 </p>
                             </div>
                         </div>

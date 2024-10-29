@@ -29,13 +29,17 @@ const EmploymentContracts = () => {
                             </div>
                             <div className="p-5 text-ar-blue">
                                 <p className="mb-2 text-md">
-                                    At Anthony Robinson Solicitors we are proud to provide a dedicated personal service to all our clients. Our approach is open and friendly, we care about our clients and ensure to offer the best solutions to their problems.</p><p className="mb-2">
+                                  Have you got employment contracts in place for all your staff? If not it would be a good idea to do something about it!
 
-                                    We strive to understand your individual needs and at the outset will give you clear and sensible advice and assistance. Once we have worked with you to decide the way forward we will do all we can to obtain the result you are looking for.</p><p className="mb-2">
+                                  First and foremost it is a requirement that all employees are provided with an employment contract or statement of terms and conditions within two months of the commencement of employment. Failure to comply with this can lead to an employee being awarded an additional two or four weeks’ pay if they are successful in a claim in the Employment Tribunal.
 
-                                    We specialise solely in employment law, meaning that if you instruct us you will be represented by a solicitor who is fully up-to-date with the latest developments in this dynamic and complex field of law.
+                                  A contract of employment can also play a vital part in the protection of your business. An employee with access to confidential information or who has close contacts with customers and contacts can be prevented from leaving and taking away clients provided that the restriction is drawn no wider than reasonably necessary to protect the business.
 
-                                    Our personable, friendly service ensures that your concerns are always listened to, and you can relax safe in the knowledge you are in good hands.
+                                  Employment contracts will set out many aspects of the employment relationship such as pay, hours, holiday entitlement and notice requirements. The contract terms will help to ensure that your employees know where they stand.
+
+                                  There are many other benefits gained from having written employment contracts. For instance, did you know that if an employee owes you money you are unable to deduct this from a payment of wages without a contractual clause allowing this?
+
+                                  If you need expert advice and assistance with drafting contracts for your business or organisation, please contact Anthony Robinson on 0161 929 1921 or click here
                                 </p>
                             </div>
                         </div>

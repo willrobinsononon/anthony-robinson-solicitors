@@ -29,13 +29,32 @@ const EmployersServices = () => {
                             </div>
                             <div className="p-5 text-ar-blue">
                                 <p className="mb-2 text-md">
-                                    At Anthony Robinson Solicitors we are proud to provide a dedicated personal service to all our clients. Our approach is open and friendly, we care about our clients and ensure to offer the best solutions to their problems.</p><p className="mb-2">
+                                  Employment law advisors for employers
+                                  As employment law advisors, we provide a comprehensive range of services to ensure that your organisation is equipped to deal with all employment issues that may arise. The services include:
 
-                                    We strive to understand your individual needs and at the outset will give you clear and sensible advice and assistance. Once we have worked with you to decide the way forward we will do all we can to obtain the result you are looking for.</p><p className="mb-2">
+                                  Drafting contracts of employment and contracts for consultants and contractors
+                                  Preparing staff handbooks including:
+                                  equal opportunity policies
+                                  flexible working policy
+                                  attendance policy
+                                  data protection
+                                  employee use of social media
+                                  whistleblowing policy
+                                  Drafting restrictive covenants to protect your business from unlawful competition from your departing employees
+                                  Advising upon recruitment processes
+                                  Advising upon data protection and confidentiality
+                                  Advising and assisting with redundancy or restructuring exercises, including preparation of all relevant documentation
+                                  Advising and assisting with managing sickness absence and underperformance, including preparation of all relevant documentation
+                                  Advising and assisting with disciplinary proceedings, for example to deal with conduct or capability issues, including preparation of all relevant documentation
+                                  Advising and assisting with issues surrounding discrimination, including preparation of all relevant documentation
+                                  Advising upon employment issues arising if you acquire a business or are involved in a merger (TUPE)
+                                  Advising about pay and benefits
+                                  Conducting disciplinary hearings and appeal hearings
+                                  Acting on your behalf in Employment Tribunal claims
+                                  Acting on your behalf in High Court proceedings, for example to restrain a former employee dealing with your clients
+                                  Our work as employment law advisors covers all aspects of employment law – please call 0161 929 1921 or contact us for further information and an no obligation chat.
 
-                                    We specialise solely in employment law, meaning that if you instruct us you will be represented by a solicitor who is fully up-to-date with the latest developments in this dynamic and complex field of law.
-
-                                    Our personable, friendly service ensures that your concerns are always listened to, and you can relax safe in the knowledge you are in good hands.
+                                  Our legal services generally cover the Manchester, Altrincham, Stockport, Wilmslow, Knutsford, Warrington and Cheshire areas.
                                 </p>
                             </div>
                         </div>

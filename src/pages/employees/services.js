@@ -29,13 +29,26 @@ const EmployeesServices = () => {
                             </div>
                             <div className="p-5 text-ar-blue">
                                 <p className="mb-2 text-md">
-                                    At Anthony Robinson Solicitors we are proud to provide a dedicated personal service to all our clients. Our approach is open and friendly, we care about our clients and ensure to offer the best solutions to their problems.</p><p className="mb-2">
+                                  Employment law advice for employees
+                                  We provide employment law advice through a comprehensive range of services to ensure that if you encounter difficulties at work we are here to be of help whatever the issue. Our employment law advice includes:
 
-                                    We strive to understand your individual needs and at the outset will give you clear and sensible advice and assistance. Once we have worked with you to decide the way forward we will do all we can to obtain the result you are looking for.</p><p className="mb-2">
+                                  Advising upon the terms and conditions of your employment
+                                  Negotiating terms, eg directors’ service contracts, consultancy contracts
+                                  Negotiating severance packages
+                                  Advising upon the terms and effect of Compromise Agreements
+                                  Acting on your behalf in Employment Tribunal proceedings including:
+                                  Claims for unfair dismissal, including constructive dismissal
+                                  Claims for unlawful deductions from wages
+                                  Breach of contract claims.
+                                  Claims for discrimination, whether it be on the grounds of race, sex, disability, sexual orientation, age or religion or belief.
+                                  Equal pay claims.
+                                  Whistleblowing claims.
+                                  Advising and assisting with accusations by former employer concerning alleged breach of restrictive covenants (eg non-competition, non-solicitation of customers and clients).
+                                  Conducting claims relating to negligent references.
+                                  Representation in disciplinary hearings and appeal hearings.
+                                  We are always happy to discuss any aspect of employment law advice as it relates to employees or employers – so why not call 0161 929 1921 or contact us today for further information and a no obligation chat.
 
-                                    We specialise solely in employment law, meaning that if you instruct us you will be represented by a solicitor who is fully up-to-date with the latest developments in this dynamic and complex field of law.
-
-                                    Our personable, friendly service ensures that your concerns are always listened to, and you can relax safe in the knowledge you are in good hands.
+                                  Our legal services cover the areas of Manchester, Altrincham, Stockport, Wilmslow, Knutsford, Warrington and Cheshire.
                                 </p>
                             </div>
                         </div>

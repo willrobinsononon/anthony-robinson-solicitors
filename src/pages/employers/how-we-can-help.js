@@ -20,6 +20,26 @@ const Employers = () => {
         >
             <InnerPageSection title={false}>
               <p>
+
+                If you are looking for an employment solicitor, we are here to help. Is your business making the most of its primary resource – its employees?
+
+                At Anthony Robinson Solicitors we advise on critical aspects of employment law that play such an important role in the performance of an organisation.
+
+                As an employment solicitor we can help you find ways to improve the successful running of your business, such as putting policies in place to promote productivity, effecting reorganisations to improve efficiency and using employment contracts to protect your business from competition.
+
+                We help businesses of all shapes and sizes.  Much of our work is with companies and organisations of a medium size, employing staff numbering between 20 and 200 employees.
+
+                However businesses with only one employee need to have a contract of employment in place and numerous issues can arise upon which a small organisation need advice from an employment solicitor.
+
+                We also welcome instructions from larger organisations, particularly where a human resources department needs specialist employment advice to support the valuable work it undertakes.
+
+                Our aim at all times is to assist organisations of whatever nature to navigate the treacherous waters of employment law successfully.
+
+                For further information please do not hesitate to call us on 0161 929 1921 or contact us here for a free no-obligation chat.
+
+                Our legal services cover the areas of Manchester, Altrincham, Stockport, Wilmslow, Knutsford, Warrington and Cheshire.
+
+
                 When you think about getting advice and assistance from an employment law solicitor are you worried about what you may be getting yourself into?  At Anthony Robinson Solicitors we take pride in finding a way to meet all your employment needs whilst providing a cost-effective service.
 
                 We are aware that most businesses are looking to find clear and helpful advice that can enable employment issues to be dealt with swiftly and with as little hassle as possible.  We are committed to working with you to identify solutions whilst minimising the risks to your organisation.  We look to provide our clients with all available options and to be imaginative in finding the best way forward.  We are approachable and friendly and seek to ensure that all of our clients feel they have found an trusted employment law solicitor they can rely on.
