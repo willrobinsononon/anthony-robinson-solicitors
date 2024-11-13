@@ -22,8 +22,11 @@ export default function NavItemGroup({ className, name, navItems, subGroup = fal
       if (
         isOpen &&
         wrapper &&
-        !wrapper.contains(event.target)
+        !wrapper.contains(event.target) &&
+        !event.target.matches("a") &&
+        !event.target.matches("button")
       ) {
+        console.log(event.target)
         onGroupButtonClick()
       }
     }

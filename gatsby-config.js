@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: "Employment law solicitors, Manchester, Altrincham, Stockport, Cheshire",
+    title: "Employment law solicitors serving Manchester, Altrincham, Stockport, Cheshire",
     description: "Anthony Robinson Solicitors are employment law solicitors who can take care of any legal issues that may arise in the workplace.",
     image: "/logo.png",
     siteUrl: "https://www.anthonyrobinsonsolicitors.co.uk/",

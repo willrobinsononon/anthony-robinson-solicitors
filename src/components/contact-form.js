@@ -8,7 +8,7 @@ const ContactForm = () => {
         <hr className="border-ar-orange border m-auto"></hr>
         <h2 className="font-extrabold text-ar-blue text-3xl text-center my-1">Contact Us</h2>
         <hr className="border-ar-orange border w-32 m-auto mb-4"></hr>
-        <div className="font-semibold text-lg mb-4">Use the following form or call us on <Link to="tel:01619268500" className="text-ar-orange font-extrabold">0161 926 8500</Link> to make a free, no obligation enquiry</div>
+        <div className="font-semibold text-lg mb-4">Use the following form or call us on <Link to="tel:01619291921" className="text-ar-orange font-extrabold">0161 929 1921</Link> to make a free, no obligation enquiry</div>
         <form action="https://api.web3forms.com/submit" method="POST" className="flex flex-col gap-3 text-ar-blue text-lg">
 
           <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE"/>

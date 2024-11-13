@@ -1,9 +1,9 @@
 import * as React from "react"
 
-const InnerPageSection = ({title, children}) => {
+const InnerPageSection = ({className, title, children}) => {
 
   return (
-    <div className="text-ar-blue text-lg mb-10 lg:mb-16">
+    <div className={`text-ar-blue text-lg ${className}`}>
         {title &&
           <h2 className="font-extrabold text-2xl lg:text-3xl mb-6 lg:mb-10">{title}</h2>
         }

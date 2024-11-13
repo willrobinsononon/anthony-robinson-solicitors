@@ -1,16 +1,19 @@
 import * as React from "react"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import {StaticImage} from "gatsby-plugin-image"
 import InnerPage from "../components/inner-page"
 import InnerPageSection from "../components/inner-page-section"
 import { Link } from "gatsby"
+import {Text, Paragraph, LargeText} from "../components/text"
+
+const title="Contact"
 
 const Contact = () => {
 
   return (
     <Layout>
-        <InnerPage title="Contact" sidebar={true} testimonials={false} image={
+        <InnerPage title={title} sidebar={true} testimonials={false} image={
           <StaticImage 
             alt="" 
             src="../images/contact.jpg"
@@ -20,14 +23,14 @@ const Contact = () => {
           />}
         >
             <InnerPageSection title={false}>
-              <p className="text-2xl font-semibold mb-10">Contact us for any further advice or queries regarding your employment issues.</p>
-              <p className="mb-6">Please get in touch by telephone or using the contact form. We can arrange meetings over video call or in person at the address below.</p>
-              <p className="font-semibold mb-6">Telephone: <Link to="tel:01619268500" className="text-ar-orange font-extrabold">0161 926 8500</Link></p>
-              <p className="font-semibold mb-2">Chambers:</p>
-              <p>20 Market Street,<br/>
+              <LargeText>Contact us for any further advice or queries regarding your employment issues.</LargeText>
+              <Paragraph margin="mb-6">Please get in touch by telephone or using the contact form. We can arrange meetings over video call or in person at the address below.</Paragraph>
+              <Text className="font-semibold mb-6">Telephone: <Link to="tel:01619291921" className="text-ar-orange font-extrabold">0161 929 1921</Link></Text>
+              <Text className="font-semibold mb-2">Chambers:</Text>
+              <Text>20 Market Street,<br/>
                     Altrincham<br/>
                     Cheshire<br/>
-                    WA14 1PF</p>
+                    WA14 1PF</Text>
             </InnerPageSection>
         </InnerPage>
     </Layout>
@@ -36,4 +39,4 @@ const Contact = () => {
 
 export default Contact
 
-export const Head = () => <SEO />
+export const Head = () => <Seo title={title}/>

@@ -14,7 +14,7 @@ const Footer = () => {
                 alt="" 
                 src="../images/meeting-crop.jpg"
                 className="min-w-full max-h-96 [gridArea:1/1] z-0"
-                imgClassName="brightness-50"
+                imgClassName="brightness-30"
                 layout="fullWidth"
               />
               <div className="z-20 [gridArea:1/1] text-white font-sans px-8">
@@ -25,8 +25,8 @@ const Footer = () => {
                             <span className="font-extrabold text-2xl sm:text-4xl text-white hover:text-ar-orange-hi">Get in touch</span>
                         </Link>
                     </div>
-                    <div className="bg-ar-o-grey bg-opacity-90 p-5 rounded-xl">
-                      <p className="text-md sm:text-xl lg:text-2xl">We are always happy to discuss any aspect of employment law advice as it relates to employees or employers – so why not <Link to="/contact"><div className="bg-ar-orange hover:bg-ar-orange-hi hover:text-black rounded-xl px-3 inline-block">Contact Us Today</div></Link> for further information and a <span className="font-semibold">no obligation </span>chat.</p>
+                    <div className="bg-ar-o-grey bg-opacity-80 p-5 rounded-xl">
+                      <div className="text-md sm:text-xl lg:text-2xl">We are always happy to discuss any aspect of employment law advice as it relates to employees or employers – so why not <Link to="/contact"><div className="bg-ar-orange hover:bg-ar-orange-hi hover:text-black rounded-xl px-3 inline-block">Contact Us Today</div></Link> for further information and a <span className="font-semibold">no obligation </span>chat.</div>
                     </div>
                   </div>
                 </div>  
@@ -60,6 +60,9 @@ const Footer = () => {
                         <div>
                             © {new Date().getFullYear()} &middot; Anthony Robinson Solicitors
                         </div>
+                        <div className="font-bold">
+                          Proudly serving Manchester, Altrincham, Stockport and Cheshire since 2012
+                        </div>
                     </div>
                     <div className="mt-3 sm:mt-0 sm:basis-2/5 flex items-center">
                         <div className="flex flex-col gap-8 bg-white rounded p-3 w-full">
@@ -74,7 +77,7 @@ const Footer = () => {
                                 </Link>
                             </div>
                             <div className="text-center">
-                                <div className="m-auto" style={{maxWidth:"275px",maxHeight:"163px"}}><div style={{position:"relative",paddingBottom:"59.1%",height:"auto",overflow:"hidden"}}><iframe frameborder="0" scrolling="no" allowTransparency="true" src="https://cdn.yoshki.com/iframe/55845r.html" style={{border:"0px",margin:"0px",padding:"0px",backgroundColor:"transparent",top:"0px",left:"0px",width:"100%",height:"100%",position:"absolute"}}></iframe></div></div>
+                                <div className="m-auto" style={{maxWidth:"275px",maxHeight:"163px"}}><div style={{position:"relative",paddingBottom:"59.1%",height:"auto",overflow:"hidden"}}><iframe frameBorder="0" scrolling="no" allowtransparency="true" src="https://cdn.yoshki.com/iframe/55845r.html" style={{border:"0px",margin:"0px",padding:"0px",backgroundColor:"transparent",top:"0px",left:"0px",width:"100%",height:"100%",position:"absolute"}}></iframe></div></div>
                             </div>
                         </div>
                     </div>

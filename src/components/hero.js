@@ -25,7 +25,7 @@ const Hero = () => {
             <div className="basis-2/6 px-4 flex items-center">
               <div className="max-w-5xl m-auto flex flex-col sm:flex-row gap-3">
                 <div className="flex-1">
-                  <Link to="/employers">
+                  <Link to="/employers/how-we-can-help">
                     <div className="h-full border-2 rounded-xl border-white bg-ar-blue bg-opacity-20 hover:bg-white hover:bg-opacity-20 p-3 cursor-pointer">
                       <h2 className="font-extrabold text-ar-orange text-lg sm:text-xl lg:text-2xl">Employer Seeking Assistance?</h2><hr className="my-1 sm:my-2 border-slate-200"></hr>
                       <span className="text-md sm:text-lg lg:text-xl">Find out more about how we assist employers in all matters relating to employment law</span>
@@ -33,7 +33,7 @@ const Hero = () => {
                   </Link>
                 </div>
                 <div className="flex-1">
-                  <Link to="/employees">
+                  <Link to="/employees/how-we-can-help">
                     <div className="h-full border-2 rounded-xl border-white bg-ar-blue bg-opacity-20 hover:bg-white hover:bg-opacity-20 p-3 cursor-pointer">
                       <h2 className="font-extrabold text-ar-orange text-lg sm:text-xl lg:text-2xl">Employee Seeking Assistance?</h2><hr className="my-1 sm:my-2 border-slate-200"></hr>
                       <span className="text-md sm:text-lg lg:text-xl">Find out more about how we assist workers, job applicants and employees in all workplace matters</span>
@@ -41,7 +41,7 @@ const Hero = () => {
                   </Link>
                 </div>
                 <div className="flex-1">
-                  <Link to="/medical">
+                  <Link to="/medical/how-we-can-help">
                     <div className="h-full border-2 rounded-xl border-white bg-ar-blue bg-opacity-20 hover:bg-white hover:bg-opacity-20 p-3 cursor-pointer">
                       <h2 className="font-extrabold text-ar-orange text-lg sm:text-xl lg:text-2xl">Medical Professional Seeking Assistance?</h2><hr className="my-1 sm:my-2 border-slate-200"></hr>
                       <span className="text-md sm:text-lg lg:text-xl">Find out more about how we use our experience and expertise to assist with employment issues in the medical profession</span>

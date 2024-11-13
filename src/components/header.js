@@ -59,12 +59,6 @@ export default function Header() {
               href: "/employers/key-issues/disciplinary-procedures",
               text: "Disciplinary Procedures",
             },
-            {
-              id: 5,
-              navItemType: "NavItem",
-              href: "/employers/key-issues/discrimination-in-the-workplace",
-              text: "Discrimination in the Workplace",
-            },
           ]
         },
         {
@@ -95,21 +89,28 @@ export default function Header() {
         {
           id: 1,
           navItemType: "NavItem",
+          href: "/employees/discrimination-in-the-workplace",
+          text: "Discrimination in the Workplace",
+        },
+        {
+          id: 2,
+          navItemType: "NavItem",
           href: "/employees/key-issues",
           text: "Key Issues",
         },
         {
-          id: 2,
+          id: 3,
           navItemType: "NavItem",
           href: "/employees/services",
           text: "Services",
         },
         {
-          id: 3,
+          id: 4,
           navItemType: "NavItem",
           href: "/employees/dismissal-costs",
           text: "Costs for Dismissal Claims",
         },
+        
       ]
     },
     {

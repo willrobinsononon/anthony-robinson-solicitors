@@ -33,6 +33,9 @@ module.exports = {
       spacing: {
         'vh-nav-sm': 'calc(100vh - 79px)',
         'vh-nav': 'calc(100vh - 65px)'
+      },
+      brightness: {
+        '30' : '.30',
       }
     },
   },

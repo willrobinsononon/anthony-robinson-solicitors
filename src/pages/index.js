@@ -1,6 +1,6 @@
 import * as React from "react"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Hero from "../components/hero"
 import {StaticImage} from "gatsby-plugin-image"
 
@@ -74,4 +74,4 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <SEO />
+export const Head = () => <Seo />
