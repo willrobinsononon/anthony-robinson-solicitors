@@ -5,6 +5,7 @@ import {StaticImage} from "gatsby-plugin-image"
 import InnerPage from "../../components/inner-page"
 import InnerPageSection from "../../components/inner-page-section"
 import {LargeText, Paragraph, FinalParagraph} from "../../components/text"
+import { Link } from "gatsby"
 
 const title="Employees - How We Can Help"
 
@@ -46,6 +47,12 @@ const Employees = () => {
           </Paragraph>
           <Paragraph>
             We always seek to ensure that all of our clients feel that they have found a trusted adviser that they can rely on to act in their best interests.
+          </Paragraph>
+          <Paragraph className="text-xl">
+            Have a look through some typical queries we can help with <Link className="hover:text-ar-b-grey font-extrabold" to={"/employees/key-issues"}>here</Link>
+          </Paragraph>
+          <Paragraph className="text-xl">
+            Take a look at some of the services we offer <Link className="hover:text-ar-b-grey font-extrabold" to={"/employees/services"}>here</Link>
           </Paragraph>
           <FinalParagraph>
             Our legal services cover the areas of Manchester, Altrincham, Warrington, Stockport, Wilmslow, Knutsford, Cheshire.

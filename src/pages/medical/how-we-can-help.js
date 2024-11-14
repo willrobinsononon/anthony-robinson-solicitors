@@ -49,7 +49,7 @@ const Medical = () => {
             Have a look through some typical queries we can help with <Link className="hover:text-ar-b-grey font-extrabold" to={"/medical/key-issues"}>here</Link>
           </Paragraph>
           <Paragraph className="text-xl">
-            Take a look at some of the services we offer <Link className="hover:text-ar-b-grey font-extrabold" to={"/medical/servicess"}>here</Link>
+            Take a look at some of the services we offer <Link className="hover:text-ar-b-grey font-extrabold" to={"/medical/services"}>here</Link>
           </Paragraph>
           <FinalParagraph>
             Our legal services cover the areas of Manchester, Altrincham, Warrington, Stockport, Wilmslow, Knutsford, Cheshire.
