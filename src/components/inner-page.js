@@ -18,7 +18,7 @@ const InnerPage = ({title, sidebar, testimonials, image, children, genericContac
                 {genericContact &&
                   <InnerPageSection title={false}>
                     <div className="mt-6 lg:mt-16 text-xl lg:text-2xl font-bold">
-                      Please do not hesitate to <Link to="/contact"><div className="bg-ar-orange hover:bg-ar-orange-hi hover:text-black rounded-xl px-3 inline-block font-bold">Contact Us</div></Link> for further information.
+                      Please do not hesitate to <Link to="/contact"><div className="bg-ar-orange hover:bg-ar-orange-hi text-black rounded-xl px-3 inline-block font-bold">Contact Us</div></Link> for further information.
                     </div>
                   </InnerPageSection>
                 }
@@ -32,7 +32,7 @@ const InnerPage = ({title, sidebar, testimonials, image, children, genericContac
                     {genericContact &&
                       <InnerPageSection title={false}>
                         <div className="mt-6 lg:mt-16 text-xl lg:text-2xl font-bold">
-                          Please do not hesitate to <Link to="/contact"><div className="bg-ar-orange hover:bg-ar-orange-hi hover:text-black rounded-xl px-3 inline-block font-bold">Contact Us</div></Link> for further information.
+                          Please do not hesitate to <Link to="/contact"><div className="bg-ar-orange hover:bg-ar-orange-hi text-black rounded-xl px-3 inline-block font-bold">Contact Us</div></Link> for further information.
                         </div>
                       </InnerPageSection>
                     }

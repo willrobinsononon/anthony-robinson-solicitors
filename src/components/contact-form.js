@@ -127,7 +127,7 @@ const ContactForm = () => {
           <input type="phone" name="phone" placeholder="Telephone Number" value={formData.phone} onChange={handleChange} className="bg-ar-o-grey-xhi border-ar-o-grey-hi border px-2 py-1 rounded"/>
           <textarea name="message" placeholder="Message" value={formData.message} required onChange={handleChange} className="bg-ar-o-grey-xhi border-ar-o-grey-hi border px-2 py-1 rounded h-32 resize-none"></textarea>
 
-          <button type="submit" className="px-3 py-1 my-3 bg-ar-orange hover:bg-ar-orange-hi text-white font-semibold w-fit m-auto rounded-xl">Send Message</button>
+          <button type="submit" className="px-3 py-1 my-3 bg-ar-orange hover:bg-ar-orange-hi text-black font-semibold w-fit m-auto rounded-xl">Send Message</button>
 
         </form>
         

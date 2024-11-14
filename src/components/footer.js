@@ -26,7 +26,7 @@ const Footer = () => {
                         </Link>
                     </div>
                     <div className="bg-ar-o-grey bg-opacity-80 p-5 rounded-xl">
-                      <div className="text-md sm:text-xl lg:text-2xl">We are always happy to discuss any aspect of employment law advice as it relates to employees or employers – so why not <Link to="/contact"><div className="bg-ar-orange hover:bg-ar-orange-hi hover:text-black rounded-xl px-3 inline-block">Contact Us Today</div></Link> for further information and a <span className="font-semibold">no obligation </span>chat.</div>
+                      <div className="text-md sm:text-xl lg:text-2xl">We are always happy to discuss any aspect of employment law advice as it relates to employees or employers – so why not <Link to="/contact"><div className="bg-ar-orange hover:bg-ar-orange-hi text-black font-semibold rounded-xl px-3 inline-block">Contact Us Today</div></Link> for further information and a <span className="font-semibold">no obligation </span>chat.</div>
                     </div>
                   </div>
                 </div>  
