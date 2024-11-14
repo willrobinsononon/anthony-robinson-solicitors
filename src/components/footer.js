@@ -16,6 +16,7 @@ const Footer = () => {
                 className="min-w-full max-h-96 [gridArea:1/1] z-0"
                 imgClassName="brightness-30"
                 layout="fullWidth"
+                loading="eager"
               />
               <div className="z-20 [gridArea:1/1] text-white font-sans px-8">
                 <div className="max-w-5xl m-auto">

@@ -26,6 +26,7 @@ const AboutUs = () => {
                     alt="Headshot of Anthony Robinson, Employment Lawyer"
                     src="../images/ar-pic.jpg"
                     className="block m-auto mb-5 float-top md:mb-3 md:mx-3 md:inline md:float-right max-w-56"
+                    loading="eager"
                 />
                 <Paragraph>
                   Anthony Robinson set up Anthony Robinson Solicitors Limited in 2012, drawing on his experience as a successful partner in a city-centre firm.
