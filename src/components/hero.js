@@ -11,6 +11,7 @@ const Hero = () => {
                     className="min-w-full [gridArea:1/1]"
                     imgClassName="brightness-50"
                     layout="fullWidth"
+                    loading="eager"
           />
           <div className="hero-text-wrapper z-20 [gridArea:1/1] w-full flex flex-col gap-6 text-white font-sans">
           
