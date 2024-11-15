@@ -5,15 +5,11 @@ const ContactForm = () => {
 
   async function submitForm(formData) {
     try {
-      const response = await fetch('https://submit-form.com/v6G5xVkTz',
+      const response = await fetch('/',
         {
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
           method: 'POST',
-          headers: {
-            "Content-Type": "application/json",
-            Accept: "application/json",
-          },
-          body: JSON.stringify(formData),
-          
+          body: new URLSearchParams(formData).toString()
         });
       if (response.ok) {
         formSuccess("Form submitted!")
@@ -118,7 +114,7 @@ const ContactForm = () => {
             {message.text}
           </div>
         }
-        <form action="https://submit-form.com/v6G5xVkTz" method="POST" onSubmit={handleSubmit} className="flex flex-col gap-3 text-ar-blue text-lg">
+        <form method="POST" onSubmit={handleSubmit} className="flex flex-col gap-3 text-ar-blue text-lg" netlify>
 
           <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE"/>
 
