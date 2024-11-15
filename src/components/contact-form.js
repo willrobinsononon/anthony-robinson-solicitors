@@ -115,6 +115,7 @@ const ContactForm = () => {
           </div>
         }
         <form name="contact" onSubmit={handleSubmit} className="flex flex-col gap-3 text-ar-blue text-lg" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact" />
           <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE"/>
 
           <input type="text" name="name" placeholder="Name" value={formData.name} required onChange={handleChange} className="bg-ar-o-grey-xhi border-ar-o-grey-hi border px-2 py-1 rounded"/>
