@@ -99,7 +99,7 @@ const ContactForm = () => {
       return
     }
 
-    submitForm(formData)
+    submitForm(new FormData(event.target))
   }
 
   return (
