@@ -11,8 +11,8 @@ const ContactForm = () => {
           method: 'POST',
           body: new URLSearchParams(
             {
+              "form-name": "contact",
             ...formData, 
-            "form-name": "contact"
             }).toString()
         });
       if (response.ok) {
