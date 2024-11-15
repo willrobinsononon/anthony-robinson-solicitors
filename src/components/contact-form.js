@@ -12,7 +12,7 @@ const ContactForm = () => {
           body: new URLSearchParams(
             {
             ...formData, 
-            "form-name": "contact"
+            "form-name": "contactForm"
             }).toString()
         });
       if (response.ok) {
@@ -118,7 +118,7 @@ const ContactForm = () => {
             {message.text}
           </div>
         }
-        <form name="contact" onSubmit={handleSubmit} className="flex flex-col gap-3 text-ar-blue text-lg" data-netlify="true">
+        <form name="contactForm" onSubmit={handleSubmit} className="flex flex-col gap-3 text-ar-blue text-lg" data-netlify="true">
 
           <input type="text" name="name" placeholder="Name" value={formData.name} required onChange={handleChange} className="bg-ar-o-grey-xhi border-ar-o-grey-hi border px-2 py-1 rounded"/>
           <input type="email" name="email" placeholder="Email" value={formData.email} required onChange={handleChange} className="bg-ar-o-grey-xhi border-ar-o-grey-hi border px-2 py-1 rounded"/>
