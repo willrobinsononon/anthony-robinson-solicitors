@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Link, StaticQuery } from "gatsby"
+import { Link } from "gatsby"
 
 const ContactForm = () => {
 
@@ -114,7 +114,7 @@ const ContactForm = () => {
             {message.text}
           </div>
         }
-        <form method="POST" onSubmit={handleSubmit} className="flex flex-col gap-3 text-ar-blue text-lg" netlify>
+        <form name="contact" method="POST" onSubmit={handleSubmit} className="flex flex-col gap-3 text-ar-blue text-lg" netlify>
 
           <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE"/>
 
